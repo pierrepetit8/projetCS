@@ -1,0 +1,11 @@
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\Database.mdf
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\Database_log.ldf
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\Model.dll.config
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\Model.dll
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\Model.pdb
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\EntityFramework.dll
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\EntityFramework.xml
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\obj\Release\Model.dll
+C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\obj\Release\Model.pdb

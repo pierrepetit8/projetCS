@@ -25,9 +25,12 @@ namespace Model
         public bool active { get; set; }
         [Column("PR_STOCK")]
         public long stock { get; set; }
-        [ForeignKey("CAT_ID")]
+        public string categoryId { get; set; }
+        [ForeignKey("categoryId")]
         public Category category { get; set; }
         [Column("PR_DESCRIPTION")]
         public string description { get; set; }
+
+        public ICollection<ProductOrder> ProductOrders { get; set; }
     }
 }

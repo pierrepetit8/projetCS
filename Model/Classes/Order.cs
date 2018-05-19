@@ -20,7 +20,9 @@ namespace Model
         private string observation { get; set; }
         [Column("OR_STATUS")]
         private int statusId { get; set; }
-        [ForeignKey("CLI_ID")]
+        private int clientId { get; set; }
+        [ForeignKey("clientId")]
         private Client client { get; set; }
+        public ICollection<ProductOrder> ProductOrders { get; set; }
     }
 }

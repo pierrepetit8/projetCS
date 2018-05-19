@@ -18,5 +18,7 @@ namespace Model
         public string label { get; set; }
         [Column("CAT_ACTIVE")]
         public bool active { get; set; }
+
+        public ICollection<Product> Products { get; set; }
     }
 }

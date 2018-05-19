@@ -21,5 +21,7 @@ namespace Model
         public string firstName { get; set; }
         [Column("CLI_ACTIVE")]
         public bool active { get; set; }
+
+        public ICollection<Order> Orders { get; set; }
     }
 }

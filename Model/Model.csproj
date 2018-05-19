@@ -67,7 +67,7 @@
     <Compile Include="Classes\Category.cs" />
     <Compile Include="Classes\Client.cs" />
     <Compile Include="Classes\Context.cs" />
-    <Compile Include="Order.cs" />
+    <Compile Include="Classes\Order.cs" />
     <Compile Include="Classes\Product.cs" />
     <Compile Include="Classes\ProductOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

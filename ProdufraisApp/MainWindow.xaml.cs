@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ProdufraisApp.ViewModels;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +22,16 @@ namespace ProdufraisApp
     /// </summary>
     public partial class MainWindow : Window
     {
+        static ListeProduitViewModel listProduitVM = new ListeProduitViewModel();
+        ObservableCollection<AccessLayout.Product> produits = listProduitVM.Produits;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

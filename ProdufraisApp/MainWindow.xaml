@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517">
+            <ListView x:Name="listView" HorizontalAlignment="Left" Height="309" Margin="10,0,0,0" VerticalAlignment="Top" Width="178" ItemsSource="{Binding produits}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Width="100px" Header="Code" DisplayMemberBinding="{Binding Id}"/>
+                        <GridViewColumn Width="100px" Header="Label" DisplayMemberBinding="{Binding Label}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+
     </Grid>
 </Window>

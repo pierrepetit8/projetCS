@@ -19,6 +19,5 @@ U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.dll
 U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.SqlServer.dll
 U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.xml
 U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.SqlServer.xml
-U:\p3\csharp\projetCS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 U:\p3\csharp\projetCS\Model\obj\Debug\Model.dll
 U:\p3\csharp\projetCS\Model\obj\Debug\Model.pdb

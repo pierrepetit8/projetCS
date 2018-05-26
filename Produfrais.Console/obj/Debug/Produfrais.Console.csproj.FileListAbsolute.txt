@@ -12,3 +12,17 @@ C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Pr
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Produfrais.Console\obj\Debug\Produfrais.Console.csprojResolveAssemblyReference.cache
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Produfrais.Console\obj\Debug\Produfrais.Console.exe
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Produfrais.Console\obj\Debug\Produfrais.Console.pdb
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Database.mdf
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Database_log.ldf
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Produfrais.Console.exe.config
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Produfrais.Console.exe
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Produfrais.Console.pdb
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\EntityFramework.dll
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\EntityFramework.SqlServer.dll
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Model.dll
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\Model.pdb
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\EntityFramework.xml
+U:\p3\csharp\projetCS\Produfrais.Console\bin\Debug\EntityFramework.SqlServer.xml
+U:\p3\csharp\projetCS\Produfrais.Console\obj\Debug\Produfrais.Console.csprojResolveAssemblyReference.cache
+U:\p3\csharp\projetCS\Produfrais.Console\obj\Debug\Produfrais.Console.exe
+U:\p3\csharp\projetCS\Produfrais.Console\obj\Debug\Produfrais.Console.pdb

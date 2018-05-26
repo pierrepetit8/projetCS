@@ -10,3 +10,15 @@ C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Mo
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\obj\Debug\Model.dll
 C:\Users\pipetit1\Documents\Visual Studio 2015\Projects\Produfrais.Piat.Petit\Model\obj\Debug\Model.pdb
+U:\p3\csharp\projetCS\Model\bin\Debug\Database.mdf
+U:\p3\csharp\projetCS\Model\bin\Debug\Database_log.ldf
+U:\p3\csharp\projetCS\Model\bin\Debug\Model.dll.config
+U:\p3\csharp\projetCS\Model\bin\Debug\Model.dll
+U:\p3\csharp\projetCS\Model\bin\Debug\Model.pdb
+U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.dll
+U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.SqlServer.dll
+U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.xml
+U:\p3\csharp\projetCS\Model\bin\Debug\EntityFramework.SqlServer.xml
+U:\p3\csharp\projetCS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+U:\p3\csharp\projetCS\Model\obj\Debug\Model.dll
+U:\p3\csharp\projetCS\Model\obj\Debug\Model.pdb

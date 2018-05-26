@@ -13,7 +13,8 @@ namespace Model
     {
         [Key]
         [Column("CAT_ID")]
-        public string categoryId { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int categoryId { get; set; }
         [Column("CAT_LABEL")]
         public string label { get; set; }
         [Column("CAT_ACTIVE")]

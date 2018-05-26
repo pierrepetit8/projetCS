@@ -11,12 +11,14 @@ namespace Model
     [Table("T_PRODUCT_ORDER")]
     public class ProductOrder
     {
-        public int productId { get; set; }
         [Key]
+        [Column("PO_ID")]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int productOrderId { get; set; }
+        public int productId { get; set; }
         [ForeignKey("productId")]
         public Product product { get; set; }
-        private string orderId { get; set; }
-        [Key]
+        public int orderId { get; set; }
         [ForeignKey("orderId")]
         public Order order { get; set; }
         [Column("PO_QTY")]

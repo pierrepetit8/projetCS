@@ -13,7 +13,8 @@ namespace Model
     {
         [Key]
         [Column("ST_ID")]
-        public string statusId { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int statusId { get; set; }
         [Column("ST_LABEL")]
         public string label { get; set; }
     }

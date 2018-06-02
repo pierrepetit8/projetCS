@@ -13,7 +13,7 @@ namespace Model
     {
         [Key]
         [Column("PR_ID")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int productId { get; set; }
         [Column("PR_LABEL")]
         public string label { get; set; }

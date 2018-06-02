@@ -13,12 +13,15 @@ namespace Model
     {
         [Key]
         [Column("CLI_ID")]
-        [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int clientId{ get; set; }
+
         [Column("CLI_LASTNAME")]
         public string lastName { get; set; }
+
         [Column("CLI_FIRSTNAME")]
         public string firstName { get; set; }
+
         [Column("CLI_ACTIVE")]
         public bool active { get; set; }
 

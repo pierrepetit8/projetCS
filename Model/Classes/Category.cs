@@ -15,8 +15,10 @@ namespace Model
         [Column("CAT_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int categoryId { get; set; }
+
         [Column("CAT_LABEL")]
         public string label { get; set; }
+
         [Column("CAT_ACTIVE")]
         public bool active { get; set; }
 

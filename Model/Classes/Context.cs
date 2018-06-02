@@ -11,7 +11,8 @@ namespace Model.Classes
     {
         public Context() : base("name=ProdufraisDB") 
         {
-
+            Database.CreateIfNotExists();
+            Database.SetInitializer<Context>(new DropCreateDatabaseIfModelChanges<Context>());
         }
 
         public DbSet<Client> Clients { get; set; }

@@ -14,7 +14,9 @@ namespace Model
         [Key]
         [Column("ST_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int statusId { get; set; }
+
         [Column("ST_LABEL")]
         public string label { get; set; }
     }

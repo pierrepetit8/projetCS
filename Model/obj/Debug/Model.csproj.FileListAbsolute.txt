@@ -92,3 +92,4 @@ U:/p3/csharp/projetCS/Model/obj/Debug/Model.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.csproj.CoreCompileInputs.cache
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.pdb
+/Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.csprojResolveAssemblyReference.cache

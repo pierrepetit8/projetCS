@@ -14,13 +14,16 @@ namespace Model
         [Key]
         [Column("CLI_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public int clientId{ get; set; }
+        public int Id{ get; set; }
+
         [Column("CLI_LASTNAME")]
-        public string lastName { get; set; }
+        public string LastName { get; set; }
+
         [Column("CLI_FIRSTNAME")]
-        public string firstName { get; set; }
+        public string FirstName { get; set; }
+
         [Column("CLI_ACTIVE")]
-        public bool active { get; set; }
+        public bool Active { get; set; }
 
         public ICollection<Order> Orders { get; set; }
     }

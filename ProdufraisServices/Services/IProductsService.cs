@@ -22,7 +22,7 @@ namespace ProdufraisServices
         /// <summary>Get a product stock</summary>
         /// <returns>Available amount of product</returns>
         /// <param name="code">Product's code</param>
-        int GetStockProduct(string code);
+        long GetStockProduct(string code);
 
     }
 }

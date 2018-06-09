@@ -14,16 +14,22 @@ namespace Model
         [Key]
         [Column("OR_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int orderId { get; set; }
+        public int Id { get; set; }
+
         [Column("OR_DATE")]
-        public DateTime dateOrder { get; set; }
+        public DateTime Date { get; set; }
+
         [Column("OR_OBSERVATION")]
-        public string observation { get; set; }
+        public string Observation { get; set; }
+
         [Column("OR_STATUS")]
-        public int statusId { get; set; }
-        public int clientId { get; set; }
+        public int StatusId { get; set; }
+
+        public int ClientId { get; set; }
+
         [ForeignKey("clientId")]
-        public Client client { get; set; }
+        public Client Client { get; set; }
+
         public ICollection<ProductOrder> ProductOrders { get; set; }
     }
 }

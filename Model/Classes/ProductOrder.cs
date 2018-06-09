@@ -14,14 +14,19 @@ namespace Model
         [Key]
         [Column("PO_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int productOrderId { get; set; }
-        public int productId { get; set; }
+        public int Id { get; set; }
+
+        public int ProductId { get; set; }
+
         [ForeignKey("productId")]
-        public Product product { get; set; }
-        public int orderId { get; set; }
+        public Product Product { get; set; }
+
+        public int OrderId { get; set; }
+
         [ForeignKey("orderId")]
-        public Order order { get; set; }
+        public Order Order { get; set; }
+
         [Column("PO_QTY")]
-        public long quantity { get; set; }
+        public long Quantity { get; set; }
     }
 }

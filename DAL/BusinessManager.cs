@@ -25,7 +25,9 @@ namespace Model
             get
             {
                 if (_businessManager == null)
+                {
                     _businessManager = new BusinessManager();
+                }
                 return _businessManager;
             }
         }
@@ -35,6 +37,12 @@ namespace Model
         {
             ProductQuery pq = new ProductQuery(context);
             return pq.GetAll().ToList();
+        }
+
+        public Product getProductByCode(string code) 
+        {
+            ProductQuery pq = new ProductQuery(context);
+            return pq.GetByCode(code).First();
         }
 
      

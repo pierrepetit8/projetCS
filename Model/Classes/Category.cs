@@ -14,11 +14,13 @@ namespace Model
         [Key]
         [Column("CAT_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int categoryId { get; set; }
+        public int CategoryId { get; set; }
+
         [Column("CAT_LABEL")]
-        public string label { get; set; }
+        public string Label { get; set; }
+
         [Column("CAT_ACTIVE")]
-        public bool active { get; set; }
+        public bool Active { get; set; }
 
         public ICollection<Product> Products { get; set; }
     }

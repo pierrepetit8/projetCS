@@ -14,22 +14,30 @@ namespace Model
         [Key]
         [Column("PR_ID")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int productId { get; set; }
+        public int Id { get; set; }
+
         [Column("PR_LABEL")]
-        public string label { get; set; }
+        public string Label { get; set; }
+
         [Column("PR_PRICE")]
-        public float price { get; set; }
+        public float Price { get; set; }
+
         [Column("PR_CODE")]
-        public string code { get; set; }
+        public string Code { get; set; }
+
         [Column("PR_ACTIVE")]
-        public bool active { get; set; }
+        public bool Active { get; set; }
+
         [Column("PR_STOCK")]
-        public long stock { get; set; }
-        public int categoryId { get; set; }
-        [ForeignKey("categoryId")]
-        public Category category { get; set; }
+        public long Stock { get; set; }
+
+        public int CategoryId { get; set; }
+
+        [ForeignKey("CategoryId")]
+        public Category Category { get; set; }
+
         [Column("PR_DESCRIPTION")]
-        public string description { get; set; }
+        public string Description { get; set; }
 
         public ICollection<ProductOrder> ProductOrders { get; set; }
     }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-U:\p3\csharp\projetCS\ProdufraisApp\obj\Debug\
+U:\p3\csharp\clone\ProdufraisApp\obj\Debug\
 ProdufraisApp
 none
 false
 DEBUG;TRACE
-U:\p3\csharp\projetCS\ProdufraisApp\App.xaml
+U:\p3\csharp\clone\ProdufraisApp\App.xaml
 3-1180803563
 
 18-97895129
-13738642453
+16-180380172
 MainWindow.xaml;View\DetailProduit.xaml;View\ListeProduit.xaml;
 
-True
+False
 

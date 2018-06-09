@@ -14,8 +14,7 @@ namespace ProdufraisServices.Services
             _manager = BusinessManager.Instance;
             List<ProductContract> data = new List<ProductContract>();
             _manager.GetAllProducts().ForEach(
-                p => data.Add(new ProductContract(p))
-            );
+                p => data.Add(new ProductContract(p)));
             return data;
         }
 
@@ -24,8 +23,7 @@ namespace ProdufraisServices.Services
             _manager = BusinessManager.Instance;
             List<ProductOrderContract> data = new List<ProductOrderContract>();
             _manager.GetAllProductOrders().ForEach(
-                po => data.Add(new ProductOrderContract(po))
-            );
+                po => data.Add(new ProductOrderContract(po)));
             return data;
         }
 

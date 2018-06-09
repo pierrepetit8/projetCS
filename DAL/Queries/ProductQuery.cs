@@ -20,9 +20,9 @@ namespace Queries
         }
 
       
-        public IQueryable<Product> GetByID(string code)
+        public IQueryable<Product> GetByCode(string code)
         {
-            return _context.Products.Where(p => p.code == code);
+            return _context.Products.Where(p => p.Code == code);
         }
     }
 }

@@ -16,18 +16,18 @@ namespace Produfrais.Console
             context.Clients.ToList();
             BusinessManager bm = BusinessManager.Instance;
             Product p = new Product();
-            p.categoryId = 1;
-            p.price = 10.0F;
-            p.stock = 2322;
-            p.active = true;
-            p.code = "REF";
-            p.label = "Jambon GO VEGAN";
+            p.CategoryId = 1;
+            p.Price = 10.0F;
+            p.Stock = 2322;
+            p.Active = true;
+            p.Code = "REF";
+            p.Label = "Jambon GO VEGAN";
             bm.AddProduct(p);
             List<Product> list = new List<Product>();
             list = bm.GetAllProducts();
             foreach (Product pro in list)
             {
-                System.Console.WriteLine(pro.label);
+                System.Console.WriteLine(pro.Label);
             }
         }
     }

@@ -66,6 +66,10 @@ namespace Model
             pc.Delete(productID);
         }
 
-
+        public List<ProductOrder> getAllProductOrders()
+        {
+            ProductOrderQuery poq = new ProductOrderQuery(context);
+            return poq.GetAll().ToList();
+        }
     }
 }

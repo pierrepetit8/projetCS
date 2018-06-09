@@ -7,7 +7,7 @@
     <ProjectGuid>f16474c0-5e22-474c-93d9-9a23c784b3d4</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DLL</RootNamespace>
+    <RootNamespace>DAL</RootNamespace>
     <AssemblyName>DLL</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -125,6 +125,7 @@
     <Compile Include="Command\ProductCommand.cs" />
     <Compile Include="Queries\ProductQuery.cs" />
     <Compile Include="BusinessManager.cs" />
+    <Compile Include="Queries\ProductOrderQuery.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Command\" />

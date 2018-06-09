@@ -11,7 +11,12 @@ namespace ProdufraisServices
 
         public List<ProductOrderContract> GetDataOrders()
         {
-            throw new NotImplementedException();
+            Manager = BusinessManager.Instance;
+            List<ProductOrderContract> data = new List<ProductOrderContract>();
+            Manager.getAllProductOrders().ForEach(
+                po => data.Add(new ProductOrderContract(po))
+            );
+            return data;
         }
 
         public List<ProductContract> GetDataProducts()
@@ -24,11 +29,15 @@ namespace ProdufraisServices
             return data;
         }
 
-        long IProductsService.GetStockProduct(string code)
+        public long GetStockProduct(string code)
         {
             Manager = BusinessManager.Instance;
             Product data = Manager.getProductByCode(code);
-            return data == null ? 0 : data.stock;
+            if (data != null)
+            {
+                return data.Stock;
+            }
+            return 0;
         }
     }
 }

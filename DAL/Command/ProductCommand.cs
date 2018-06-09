@@ -23,18 +23,18 @@ namespace Command
       
         public void Modify(Product p)
         {
-            Product upPrd = _context.Products.Where(prd => prd.code == p.code).FirstOrDefault();
+            Product upPrd = _context.Products.Where(prd => prd.Code == p.Code).FirstOrDefault();
             if (upPrd != null)
             {
-                upPrd.label = p.label;
-                upPrd.categoryId = p.categoryId;
+                upPrd.Label = p.Label;
+                upPrd.CategoryId = p.CategoryId;
             }
             _context.SaveChanges();
         }
 
         public void Delete(string productID)
         {
-            Product delPrd = _context.Products.Where(prd => prd.code == productID).FirstOrDefault();
+            Product delPrd = _context.Products.Where(prd => prd.Code == productID).FirstOrDefault();
             if (delPrd != null)
             {
                 _context.Products.Remove(delPrd);

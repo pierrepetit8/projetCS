@@ -1,5 +1,0 @@
-U:\p3\csharp\projetCS\DLL\bin\Debug\DLL.dll
-U:\p3\csharp\projetCS\DLL\bin\Debug\DLL.pdb
-U:\p3\csharp\projetCS\DLL\obj\Debug\DLL.csprojResolveAssemblyReference.cache
-U:\p3\csharp\projetCS\DLL\obj\Debug\DLL.dll
-U:\p3\csharp\projetCS\DLL\obj\Debug\DLL.pdb

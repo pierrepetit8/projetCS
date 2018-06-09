@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Model
 {
@@ -22,15 +19,15 @@ namespace Model
         [Column("OR_OBSERVATION")]
         public string Observation { get; set; }
 
-        public int StatusId { get; set; }
-
-        public int ClientId { get; set; }
-
         [ForeignKey("StatusId")]
         public Status Status { get; set; }
 
         [ForeignKey("ClientId")]
         public Client Client { get; set; }
+
+        public int StatusId { get; set; }
+
+        public int ClientId { get; set; }
 
         public ICollection<ProductOrder> ProductOrders { get; set; }
     }

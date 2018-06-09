@@ -16,17 +16,17 @@ namespace Model
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public int ProductId { get; set; }
+        [Column("PO_QTY")]
+        public long Quantity { get; set; }
 
         [ForeignKey("ProductId")]
         public Product Product { get; set; }
 
-        public int OrderId { get; set; }
-
         [ForeignKey("OrderId")]
         public Order Order { get; set; }
 
-        [Column("PO_QTY")]
-        public long Quantity { get; set; }
+        public int ProductId { get; set; }
+
+        public int OrderId { get; set; }
     }
 }

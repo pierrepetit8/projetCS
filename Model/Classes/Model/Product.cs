@@ -27,13 +27,13 @@ namespace Model
         [Column("PR_STOCK")]
         public long Stock { get; set; }
 
-        public int CategoryId { get; set; }
+        [Column("PR_DESCRIPTION")]
+        public string Description { get; set; }
 
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
 
-        [Column("PR_DESCRIPTION")]
-        public string Description { get; set; }
+        public int CategoryId { get; set; }
 
         public ICollection<ProductOrder> Orders { get; set; }
     }

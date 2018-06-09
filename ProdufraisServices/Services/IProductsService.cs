@@ -2,7 +2,7 @@
 using System.ServiceModel;
 using ProdufraisServices.Contracts;
 
-namespace ProdufraisServices
+namespace ProdufraisServices.Services
 {
     [ServiceContract]
 
@@ -23,6 +23,5 @@ namespace ProdufraisServices
         /// <returns>Available amount of product</returns>
         /// <param name="code">Product's code</param>
         long GetStockProduct(string code);
-
     }
 }

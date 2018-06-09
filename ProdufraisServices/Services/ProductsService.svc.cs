@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Model;
 using ProdufraisServices.Contracts;
 
-namespace ProdufraisServices
+namespace ProdufraisServices.Services
 {
     public class ProductsService : IProductsService
     {

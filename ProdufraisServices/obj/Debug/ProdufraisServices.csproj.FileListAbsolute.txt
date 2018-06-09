@@ -30,3 +30,6 @@ U:/p3/csharp/projetCS/ProdufraisServices/obj/Debug/ProdufraisServices.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/obj/Debug/ProdufraisServices.csproj.CoreCompileInputs.cache
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/obj/Debug/ProdufraisServices.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/obj/Debug/ProdufraisServices.pdb
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/DLL.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/DLL.pdb
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/DLL.dll.config

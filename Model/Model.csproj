@@ -64,17 +64,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessManager.cs" />
     <Compile Include="Classes\Category.cs" />
     <Compile Include="Classes\Client.cs" />
     <Compile Include="Classes\Context.cs" />
     <Compile Include="Classes\Order.cs" />
     <Compile Include="Classes\Product.cs" />
     <Compile Include="Classes\ProductOrder.cs" />
-    <Compile Include="Command\ProduitCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Status.cs" />
-    <Compile Include="Queries\ProduitQuery.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

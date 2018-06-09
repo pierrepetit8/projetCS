@@ -22,9 +22,9 @@ namespace Produfrais.Console
             p.active = true;
             p.code = "REF";
             p.label = "Jambon GO VEGANn";
-            bm.AjouterProduit(p);
+            bm.AddProduct(p);
             List<Product> list = new List<Product>();
-            list = bm.GetAllProduit();
+            list = bm.GetAllProducts();
             foreach (Product pro in list)
             {
                 System.Console.WriteLine(pro.label);

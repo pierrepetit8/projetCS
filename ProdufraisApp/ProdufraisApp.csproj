@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E386DCEC-FD7E-4879-A03C-03DF07F4791F}</ProjectGuid>
+    <ProjectGuid>{BC359B9C-2515-4A6A-9F89-A31367FB50EB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProdufraisApp</RootNamespace>
@@ -55,13 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AccessLayout\BusinessManagerMock.cs" />
-    <Compile Include="AccessLayout\Product.cs" />
-    <Compile Include="ViewModels\ListeProduitViewModel.cs.cs" />
-    <Page Include="ListeProduct.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <Compile Include="Mock\BuisinessManagerMock.cs" />
+    <Compile Include="Mock\Produit.cs" />
+    <Compile Include="ViewModel\Common\BaseViewModel.cs" />
+    <Compile Include="ViewModel\Common\RelayCommand.cs" />
+    <Compile Include="ViewModel\DetailProduitVM.cs" />
+    <Compile Include="ViewModel\ListeProduitVM.cs" />
+    <Compile Include="ViewModel\MainWindowVM.cs" />
+    <Compile Include="View\DetailProduit.xaml.cs">
+      <DependentUpon>DetailProduit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ListeProduit.xaml.cs">
+      <DependentUpon>ListeProduit.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,13 +76,18 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ListeProduct.xaml.cs">
-      <DependentUpon>ListeProduct.xaml</DependentUpon>
-    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\DetailProduit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ListeProduit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -105,15 +116,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Model\Model.csproj">
-      <Project>{ED3573F0-9145-41A7-B4F4-85834ADB5157}</Project>
-      <Name>Model</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

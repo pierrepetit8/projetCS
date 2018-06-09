@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Model;
 using ProdufraisServices.Contracts;
 
@@ -7,32 +6,32 @@ namespace ProdufraisServices.Services
 {
     public class ProductsService : IProductsService
     {
-        private BusinessManager Manager;
+        private BusinessManager _manager;
 
-        public List<ProductOrderContract> GetDataOrders()
+        public List<ProductContract> GetProducts()
         {
-            Manager = BusinessManager.Instance;
-            List<ProductOrderContract> data = new List<ProductOrderContract>();
-            Manager.getAllProductOrders().ForEach(
-                po => data.Add(new ProductOrderContract(po))
-            );
-            return data;
-        }
-
-        public List<ProductContract> GetDataProducts()
-        {
-            Manager = BusinessManager.Instance;
+            _manager = BusinessManager.Instance;
             List<ProductContract> data = new List<ProductContract>();
-            Manager.GetAllProducts().ForEach(
+            _manager.GetAllProducts().ForEach(
                 p => data.Add(new ProductContract(p))
             );
             return data;
         }
 
-        public long GetStockProduct(string code)
+        public List<ProductOrderContract> GetOrders()
         {
-            Manager = BusinessManager.Instance;
-            Product data = Manager.getProductByCode(code);
+            _manager = BusinessManager.Instance;
+            List<ProductOrderContract> data = new List<ProductOrderContract>();
+            _manager.GetAllProductOrders().ForEach(
+                po => data.Add(new ProductOrderContract(po))
+            );
+            return data;
+        }
+
+        public long GetProductStock(string code)
+        {
+            _manager = BusinessManager.Instance;
+            Product data = _manager.GetProductByCode(code);
             if (data != null)
             {
                 return data.Stock;

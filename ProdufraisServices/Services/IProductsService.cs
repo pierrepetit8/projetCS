@@ -1,27 +1,45 @@
 ﻿using System.Collections.Generic;
 using System.ServiceModel;
+using System.ServiceModel.Web;
 using ProdufraisServices.Contracts;
 
 namespace ProdufraisServices.Services
 {
     [ServiceContract]
-
     public interface IProductsService
     {
         [OperationContract]
-        /// <summary>Get all products</summary>
-        /// <returns>List of products</returns>
-        List<ProductContract> GetDataProducts();
+        [WebInvoke(Method = "GET",
+                   ResponseFormat = WebMessageFormat.Json,
+                   RequestFormat = WebMessageFormat.Json,
+                   UriTemplate = "products")]
+        /// <summary>
+        /// Gets all products.
+        /// </summary>
+        /// <returns>List of products.</returns>
+        List<ProductContract> GetProducts();
 
         [OperationContract]
-        /// <summary>Get all orders</summary>
-        /// <returns>List of orders</returns>
-        List<ProductOrderContract> GetDataOrders();
+        [WebInvoke(Method = "GET",
+                   ResponseFormat = WebMessageFormat.Json,
+                   RequestFormat = WebMessageFormat.Json,
+                   UriTemplate = "orders")]
+        /// <summary>
+        /// Gets all orders.
+        /// </summary>
+        /// <returns>List of orders.</returns>
+        List<ProductOrderContract> GetOrders();
 
         [OperationContract]
-        /// <summary>Get a product stock</summary>
-        /// <returns>Available amount of product</returns>
-        /// <param name="code">Product's code</param>
-        long GetStockProduct(string code);
+        [WebInvoke(Method = "GET",
+                   ResponseFormat = WebMessageFormat.Json,
+                   RequestFormat = WebMessageFormat.Json,
+                   UriTemplate = "stock?code={code}")]
+        /// <summary>
+        /// Gets the value of a product stock.
+        /// </summary>
+        /// <returns>The value of the stock.</returns>
+        /// <param name="code">Code of the product.</param>
+        long GetProductStock(string code);
     }
 }

@@ -62,16 +62,29 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="MySql.Data.EntityFramework">
+      <HintPath>..\..\..\..\Perso\Ressources\mysql-connector-net-8\v4.5.2\MySql.Data.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>..\..\..\..\Perso\Ressources\mysql-connector-net-8\v4.5.2\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySQL.Data.EntityFrameworkCore">
+      <HintPath>..\..\..\..\Perso\Ressources\mysql-connector-net-8\v4.5.2\MySQL.Data.EntityFrameworkCore.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Category.cs" />
-    <Compile Include="Classes\Client.cs" />
-    <Compile Include="Classes\Context.cs" />
-    <Compile Include="Classes\Order.cs" />
-    <Compile Include="Classes\Product.cs" />
-    <Compile Include="Classes\ProductOrder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Classes\Status.cs" />
+    <Compile Include="Classes\BusinessManager.cs" />
+    <Compile Include="Classes\Command\ProductCommand.cs" />
+    <Compile Include="Classes\Queries\ProductOrderQuery.cs" />
+    <Compile Include="Classes\Queries\ProductQuery.cs" />
+    <Compile Include="Classes\Model\Category.cs" />
+    <Compile Include="Classes\Model\Client.cs" />
+    <Compile Include="Classes\Model\Context.cs" />
+    <Compile Include="Classes\Model\Order.cs" />
+    <Compile Include="Classes\Model\Product.cs" />
+    <Compile Include="Classes\Model\ProductOrder.cs" />
+    <Compile Include="Classes\Model\Status.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -88,6 +101,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\Command\" />
+    <Folder Include="Classes\Queries\" />
+    <Folder Include="Classes\Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

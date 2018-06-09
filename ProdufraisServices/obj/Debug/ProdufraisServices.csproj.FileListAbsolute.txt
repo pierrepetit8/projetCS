@@ -24,11 +24,6 @@ U:/p3/csharp/projetCS/ProdufraisServices/obj/Debug/ProdufraisServices.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/EntityFramework.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Model.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Model.dll.config
-/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Microsoft.AI.DependencyCollector.xml
-/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Microsoft.AI.ServerTelemetryChannel.xml
-/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Microsoft.AI.Web.xml
-/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Microsoft.AI.WindowsServer.xml
-/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Microsoft.ApplicationInsights.xml
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/Newtonsoft.Json.xml
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/bin/EntityFramework.xml
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisServices/obj/Debug/ProdufraisServices.csprojResolveAssemblyReference.cache

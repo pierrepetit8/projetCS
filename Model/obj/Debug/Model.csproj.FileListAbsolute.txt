@@ -36,7 +36,6 @@ U:/p3/csharp/clone/Model/obj/Debug/Model.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/bin/Debug/EntityFramework.SqlServer.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/bin/Debug/EntityFramework.xml
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/bin/Debug/EntityFramework.SqlServer.xml
-/Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.csprojResolveAssemblyReference.cache
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.csproj.CoreCompileInputs.cache
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/Model/obj/Debug/Model.pdb

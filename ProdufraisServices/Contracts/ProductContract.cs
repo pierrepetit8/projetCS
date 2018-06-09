@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 namespace ProdufraisServices.Contracts
 {
     [DataContract]
+
     public class ProductContract
     {
 

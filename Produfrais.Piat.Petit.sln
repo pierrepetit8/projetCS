@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdufraisApp", "Produfrais
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdufraisServices", "ProdufraisServices\ProdufraisServices.csproj", "{0EB805D2-1CF0-46DB-AC44-D0F010C38136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DLL\DAL.csproj", "{F16474C0-5E22-474C-93D9-9A23C784B3D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F16474C0-5E22-474C-93D9-9A23C784B3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

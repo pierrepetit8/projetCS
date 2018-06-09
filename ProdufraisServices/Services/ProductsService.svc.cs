@@ -1,23 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.ServiceModel.Web;
-using System.Text;
 using Model;
+using ProdufraisServices.Contracts;
 
 namespace ProdufraisServices
 {
     public class ProductsService : IProductsService
     {
-
-        List<ProductOrder> IProductsService.GetDataOrders()
+        public List<ProductOrderContract> GetDataOrders()
         {
             throw new NotImplementedException();
         }
 
-        List<Product> IProductsService.GetDataProducts()
+        public List<ProductContract> GetDataProducts()
         {
             throw new NotImplementedException();
         }

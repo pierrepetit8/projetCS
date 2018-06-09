@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produfrais.Console", "Produ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdufraisApp", "ProdufraisApp\ProdufraisApp.csproj", "{BC359B9C-2515-4A6A-9F89-A31367FB50EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProdufraisServices", "ProdufraisServices\ProdufraisServices.csproj", "{0EB805D2-1CF0-46DB-AC44-D0F010C38136}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BC359B9C-2515-4A6A-9F89-A31367FB50EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC359B9C-2515-4A6A-9F89-A31367FB50EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC359B9C-2515-4A6A-9F89-A31367FB50EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB805D2-1CF0-46DB-AC44-D0F010C38136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB805D2-1CF0-46DB-AC44-D0F010C38136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB805D2-1CF0-46DB-AC44-D0F010C38136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB805D2-1CF0-46DB-AC44-D0F010C38136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

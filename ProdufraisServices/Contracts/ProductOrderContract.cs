@@ -9,16 +9,16 @@ namespace ProdufraisServices.Contracts
     public class ProductOrderContract
     {
         [DataMember]
-        public int Id { get; }
+        public int Id { get; set; }
 
         [DataMember]
-        public long Quantity { get; }
+        public long Quantity { get; set; }
 
         [DataMember]
-        public string Product { get; }
+        public string Product { get; set; }
 
         [DataMember]
-        public string Order { get; }
+        public string Order { get; set; }
         
         public ProductOrderContract(ProductOrder data) 
         {

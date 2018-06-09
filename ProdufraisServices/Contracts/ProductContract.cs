@@ -10,31 +10,31 @@ namespace ProdufraisServices.Contracts
     public class ProductContract
     {
         [DataMember]
-        public int Id { get; }
+        public int Id { get; set; }
 
         [DataMember]
-        public string Code { get; }
+        public string Code { get; set; }
 
         [DataMember]
-        public string Label { get; }
+        public string Label { get; set; }
 
         [DataMember]
-        public string Description { get; }
+        public string Description { get; set; }
 
         [DataMember]
-        public float Price { get; }
+        public float Price { get; set; }
 
         [DataMember]
-        public long Stock { get; }
+        public long Stock { get; set; }
 
         [DataMember]
-        public bool Active { get; } 
+        public bool Active { get; set; } 
 
         [DataMember]
-        public string Category { get; }
+        public string Category { get; set; }
 
         [DataMember]
-        public string Orders { get; }
+        public string Orders { get; set; }
 
 
         public ProductContract(Product data)

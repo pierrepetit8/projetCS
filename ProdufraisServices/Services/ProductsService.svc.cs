@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Model;
 using ProdufraisServices.Contracts;
 
@@ -31,12 +32,15 @@ namespace ProdufraisServices.Services
         public long GetProductStock(string code)
         {
             _manager = BusinessManager.Instance;
-            Product data = _manager.GetProductByCode(code);
-            if (data != null)
+            try
             {
+                Product data = _manager.GetProductByCode(code);
                 return data.Stock;
             }
-            return 0;
+            catch (Exception)
+            {
+                return 0;
+            }
         }
     }
 }

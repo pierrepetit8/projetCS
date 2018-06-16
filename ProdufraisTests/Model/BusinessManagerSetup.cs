@@ -57,9 +57,8 @@ namespace ProdufraisTests.Model
 
         private bool _categoryExists;
 
-        /// <summary>
-        /// Create category if it doesn't exists yet
-        /// </summary>
+
+        // Create category if it doesn't exists yet
         private void HandleCategory() 
         {
             _context = new Context();

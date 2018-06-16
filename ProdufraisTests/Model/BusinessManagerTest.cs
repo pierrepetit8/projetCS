@@ -23,7 +23,8 @@ namespace ProdufraisTests.Model
         }
 
         [Test]
-        public void GetAllProducts() {
+        public void GetAllProducts() 
+        {
             List<Product> products = BusinessManager.GetAllProducts();
             Assert.NotNull(products);
         }

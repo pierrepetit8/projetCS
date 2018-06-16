@@ -32,9 +32,9 @@ namespace Model
             _context.SaveChanges();
         }
 
-        public void Delete(string productID)
+        public void Delete(string code)
         {
-            Product delPrd = _context.Products.Where(prd => prd.Code == productID).FirstOrDefault();
+            Product delPrd = _context.Products.Where(prd => prd.Code == code).FirstOrDefault();
             if (delPrd != null)
             {
                 _context.Products.Remove(delPrd);

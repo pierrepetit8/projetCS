@@ -55,10 +55,10 @@ namespace Model
         }
 
       
-        public void DeleteProduct(string productID)
+        public void DeleteProduct(string code)
         {
             var pc = new ProductCommand(_context);
-            pc.Delete(productID);
+            pc.Delete(code);
         }
 
         public List<ProductOrder> GetAllProductOrders()

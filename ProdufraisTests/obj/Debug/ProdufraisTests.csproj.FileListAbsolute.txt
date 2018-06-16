@@ -1,0 +1,16 @@
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/ProdufraisTests.dll.config
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/ProdufraisTests.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/ProdufraisTests.pdb
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/EntityFramework.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/EntityFramework.SqlServer.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/Model.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/nunit.framework.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/Model.pdb
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/Model.dll.config
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/nunit.framework.xml
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/EntityFramework.xml
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/bin/Debug/EntityFramework.SqlServer.xml
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.csprojResolveAssemblyReference.cache
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.csproj.CoreCompileInputs.cache
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.dll
+/Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.pdb

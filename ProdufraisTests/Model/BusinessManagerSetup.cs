@@ -1,21 +1,23 @@
-﻿using System;
+﻿using System.Linq;
 using Model;
 using Model.Classes;
 using NUnit.Framework;
 
 namespace ProdufraisTests.Model
 {
-    [SetUpFixture]
     public class BusinessManagerSetup
     {
-        public static Product Product { get; set; }
+        
+        public Product OnTestProduct { get; set; }
 
-        public static BusinessManager BusinessManager { get; set; }
+        public BusinessManager BusinessManager { get; set; }
 
         [SetUp]
-        public void SetUp() 
+        public void BaseSetUp() 
         {
-            Product = new Product
+            HandleCategory();
+
+            OnTestProduct = new Product
             {
                 Id = 999,
                 CategoryId = 1,
@@ -30,10 +32,54 @@ namespace ProdufraisTests.Model
             BusinessManager = BusinessManager.Instance;
         }
 
+        [TearDown]
+        public void BaseTearDown()
+        {
+            if (!_categoryExists)
+            {
+                var categories = _context.Categories;
+                var inserted = categories
+                    .Where(c => c.Id == 1)
+                    .Select(res => new Category
+                    {
+                        Id = res.Id,
+                        Label = res.Label,
+                        Active = res.Active,
+                        Products = res.Products
+                    })
+                    .First();
+
+                categories.Remove(inserted);
+            }
+        }
+
+        private Context _context;
+
+        private bool _categoryExists;
+
+        /// <summary>
+        /// Create category if it doesn't exists yet
+        /// </summary>
         private void HandleCategory() 
         {
-            var _context = new Context();
-            // create category
+            _context = new Context();
+            var categories = _context.Categories;
+
+            _categoryExists = categories
+                .Where(c => c.Id == 1)
+                .Count() == 1;
+            
+            if (!_categoryExists)
+            {
+                Category c = new Category
+                {
+                    Id = 1,
+                    Label = "On test category",
+                    Active = true
+                };
+
+                categories.Add(c);
+            }
         }
     }
 }

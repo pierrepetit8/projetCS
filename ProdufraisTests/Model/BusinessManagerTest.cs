@@ -6,43 +6,39 @@ using System.Collections.Generic;
 namespace ProdufraisTests.Model
 {
     [TestFixture]
-    public class BusinessManagerTest
+    public class BusinessManagerTest : BusinessManagerSetup
     {
-        private BusinessManager _manager;
-
-        private Product _onTestProduct;
 
         [TestFixtureSetUp]
         public void SetUp() 
         {
-            _manager = BusinessManagerSetup.BusinessManager;
-            _onTestProduct = BusinessManagerSetup.Product;
-            _manager.AddProduct(_onTestProduct);
-        }
-
-        [Test]
-        public void ManagerIsInstancied()
-        {
-            Assert.NotNull(_manager);
+            try
+            {
+                BusinessManager.AddProduct(OnTestProduct);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+            }
         }
 
         [Test]
         public void GetAllProducts() {
-            List<Product> products = _manager.GetAllProducts();
+            List<Product> products = BusinessManager.GetAllProducts();
             Assert.NotNull(products);
         }
 
         [Test]
         public void GetAllProductOrders()
         {
-            List<ProductOrder> productOrders = _manager.GetAllProductOrders();
+            List<ProductOrder> productOrders = BusinessManager.GetAllProductOrders();
             Assert.NotNull(productOrders);
         }
 
         [Test]
         public void GetProductByCode() 
         {
-            Product product = _manager.GetProductByCode(_onTestProduct.Code);
+            Product product = BusinessManager.GetProductByCode(OnTestProduct.Code);
             Assert.NotNull(product);
         }
 
@@ -50,18 +46,18 @@ namespace ProdufraisTests.Model
         public void UpdateProduct()
         {
             string label = "On test updated";
-            _onTestProduct.Label = label;
-            _manager.UpdateProduct(_onTestProduct);
-            _onTestProduct = _manager.GetProductByCode(_onTestProduct.Code);
-            Assert.Equals(_onTestProduct.Label, label);
+            OnTestProduct.Label = label;
+            BusinessManager.UpdateProduct(OnTestProduct);
+            OnTestProduct = BusinessManager.GetProductByCode(OnTestProduct.Code);
+            Assert.Equals(OnTestProduct.Label, label);
         }
 
         [Test]
         public void DeleteProduct()
         {
-            _manager.DeleteProduct(_onTestProduct.Code);
-            _onTestProduct = _manager.GetProductByCode(_onTestProduct.Code);
-            Assert.Null(_onTestProduct);
+            BusinessManager.DeleteProduct(OnTestProduct.Code);
+            OnTestProduct = BusinessManager.GetProductByCode(OnTestProduct.Code);
+            Assert.Null(OnTestProduct);
         }
     }
 }

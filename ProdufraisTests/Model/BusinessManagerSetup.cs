@@ -40,13 +40,6 @@ namespace ProdufraisTests.Model
                 var categories = _context.Categories;
                 var inserted = categories
                     .Where(c => c.Id == 1)
-                    .Select(res => new Category
-                    {
-                        Id = res.Id,
-                        Label = res.Label,
-                        Active = res.Active,
-                        Products = res.Products
-                    })
                     .First();
 
                 categories.Remove(inserted);

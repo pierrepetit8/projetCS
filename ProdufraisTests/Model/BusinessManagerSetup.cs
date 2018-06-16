@@ -30,6 +30,7 @@ namespace ProdufraisTests.Model
             };
 
             BusinessManager = BusinessManager.Instance;
+            BusinessManager.AddProduct(OnTestProduct);
         }
 
         [TearDown]

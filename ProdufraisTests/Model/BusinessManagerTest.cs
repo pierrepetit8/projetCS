@@ -9,19 +9,6 @@ namespace ProdufraisTests.Model
     public class BusinessManagerTest : BusinessManagerSetup
     {
 
-        [TestFixtureSetUp]
-        public void SetUp() 
-        {
-            try
-            {
-                BusinessManager.AddProduct(OnTestProduct);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.StackTrace);
-            }
-        }
-
         [Test]
         public void GetAllProducts() 
         {

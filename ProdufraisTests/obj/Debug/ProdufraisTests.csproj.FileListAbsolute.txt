@@ -14,3 +14,15 @@
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.csproj.CoreCompileInputs.cache
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.dll
 /Users/hugo/Documents/IUT/ASP.NET/Project/ProdufraisTests/obj/Debug/ProdufraisTests.pdb
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\ProdufraisTests.dll.config
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\ProdufraisTests.dll
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\ProdufraisTests.pdb
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\EntityFramework.dll
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\EntityFramework.SqlServer.dll
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\Model.dll
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\Model.pdb
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\EntityFramework.xml
+U:\p3\csharp\clone\ProdufraisTests\bin\Debug\EntityFramework.SqlServer.xml
+U:\p3\csharp\clone\ProdufraisTests\obj\Debug\ProdufraisTests.csprojResolveAssemblyReference.cache
+U:\p3\csharp\clone\ProdufraisTests\obj\Debug\ProdufraisTests.dll
+U:\p3\csharp\clone\ProdufraisTests\obj\Debug\ProdufraisTests.pdb

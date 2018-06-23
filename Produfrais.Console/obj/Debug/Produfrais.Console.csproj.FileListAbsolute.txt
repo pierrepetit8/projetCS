@@ -12,47 +12,6 @@ C:/Users/pipetit1/Documents/Visual Studio 2015/Projects/Produfrais.Piat.Petit/Pr
 C:/Users/pipetit1/Documents/Visual Studio 2015/Projects/Produfrais.Piat.Petit/Produfrais.Console/obj/Debug/Produfrais.Console.csprojResolveAssemblyReference.cache
 C:/Users/pipetit1/Documents/Visual Studio 2015/Projects/Produfrais.Piat.Petit/Produfrais.Console/obj/Debug/Produfrais.Console.exe
 C:/Users/pipetit1/Documents/Visual Studio 2015/Projects/Produfrais.Piat.Petit/Produfrais.Console/obj/Debug/Produfrais.Console.pdb
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Produfrais.Console.exe.config
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Produfrais.Console.exe
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Produfrais.Console.pdb
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/EntityFramework.dll
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/EntityFramework.SqlServer.dll
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Model.dll
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Model.pdb
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/EntityFramework.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/EntityFramework.SqlServer.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Web.Razor.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/WebMatrix.Data.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/WebMatrix.WebData.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Web.Helpers.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Web.WebPages.Deployment.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Web.WebPages.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Web.WebPages.Razor.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/MySql.Web.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.EntityFrameworkCore.Relational.Design.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/MySql.Data.EntityFrameworkCore.Design.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/MySql.Data.EntityFramework.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Google.Protobuf.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/MySql.Data.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Diagnostics.DiagnosticSource.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Interactive.Async.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Remotion.Linq.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.DependencyInjection.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Logging.Abstractions.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Logging.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Primitives.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Caching.Abstractions.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Options.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.Extensions.Caching.Memory.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.EntityFrameworkCore.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/Microsoft.EntityFrameworkCore.Relational.xml
-U:/p3/csharp/clone/Produfrais.Console/bin/Debug/MySql.Data.EntityFrameworkCore.xml
-U:/p3/csharp/clone/Produfrais.Console/obj/Debug/Produfrais.Console.csprojResolveAssemblyReference.cache
-U:/p3/csharp/clone/Produfrais.Console/obj/Debug/Produfrais.Console.csproj.Produfrais.Console.exe.config
-U:/p3/csharp/clone/Produfrais.Console/obj/Debug/Produfrais.Console.exe
-U:/p3/csharp/clone/Produfrais.Console/obj/Debug/Produfrais.Console.pdb
 /Users/hugo/Documents/IUT/ASP.NET/Project/Produfrais.Console/bin/Debug/Produfrais.Console.exe.config
 /Users/hugo/Documents/IUT/ASP.NET/Project/Produfrais.Console/bin/Debug/Produfrais.Console.exe
 /Users/hugo/Documents/IUT/ASP.NET/Project/Produfrais.Console/bin/Debug/Produfrais.Console.pdb

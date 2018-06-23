@@ -21,7 +21,7 @@ namespace ProdufraisWeb.Controllers
         public void Index(Product p)
         {
             BusinessManager bm = BusinessManager.Instance;
-            p.categoryId = 1;
+            p.CategoryId = 1;
             bm.AddProduct(p);
         }
     }

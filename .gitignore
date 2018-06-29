@@ -1,7 +1,5 @@
 .DS_Store
 */.DS_Store
 packages/*
-*/App.config
-*/packages.config
 Model/*.ldf
 Model/*.mdf
